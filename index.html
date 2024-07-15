@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Developer Portfolio</title>
+    <title>Gaurav Jadhav</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -97,7 +97,7 @@
 
       .secondSection {
         max-width: 80vw;
-        height: 80vh;
+        height: 90vh;
         margin: auto;
       }
 
@@ -136,7 +136,7 @@
         position: relative;
         top: 75px;
         width: 150px;
-        font-size: 14px;
+        font-size: 18px;
       }
 
       .vertical-desc{
@@ -180,6 +180,11 @@
         padding: 15px;
       }
 
+      .vertical-title a{
+        text-decoration: underline;
+        font-size: 12px;
+      }
+
     </style>
   </head>
   <body>
@@ -188,17 +193,20 @@
         <div class="left">GJ's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
             <li><a href="/">Home</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="https://www.linkedin.com/in/gaurav-jadhav-617740213" target="_blank">linkedin</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#certification">Certifications</a></li>
+            <li><a href="mailto:gaurav.vjadhav01@gmail.com" target="_blank">Contact Me</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
+
+      <!-- section 1 start -->
+
       <section class="firstSection">
         <div class="leftSection">
           Hi, My name is <span class="purple">Gaurav</span>
@@ -206,8 +214,8 @@
           <span id="element"></span>
 
           <div class="buttons">
-            <button class="btn">Download Resume</button>
-            <button class="btn">Visit Github</button>
+            <a href="/resume/Gaurav_Jadhav_Resume.pdf" target="_blank"><button class="btn">Download Resume</button></a>
+            <a href="https://github.com/jadhavgaurav" target="_blank"><button class="btn">Visit Github</button></a>
         </div>
 
         </div>
@@ -218,26 +226,32 @@
       </section>
       <hr />
 
-      <section class="secondSection">
+      <!-- section 1 end -->
+
+      <!-- section 2 start -->
+
+      <section id="projects" class="secondSection">
         <span class="text-gray">What I have done so far</span>
-        <h1>Work Expeience</h1>
+        <h1>My Projects</h1>
 
         <div class="box">
           <div class="vertical">
             <img src="/images/developer.png" alt="" class="image-top" />
             <div class="vertical-title">
-                HTML Developer (2020-2021)
+                E-Voting Using Blockchain and Face-recognition <a target="_blank" href="https://github.com/jadhavgaurav/E-Voting-using-Blockchain-and-Face-Recognition">Link</a>(2023-2024)
             </div>
             <div class="vertical-desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              reprehenderit expedita id veniam et sequi rerum, explicabo facilis
-              veritatis magni, maxime, voluptate officiis.  
+              <ul>
+                <li>Leveraged blockchain technology (Ganache) to create a tamper-evident and transparent voting record.</li>
+                <li>Integrated facial recognition for voter authentication Using Machine Learning Algorithm (K-Nearest Neighbour).</li>
+                <li>Leveraged blockchain technology (Ganache) to create a tamper-evident and transparent voting record.</li>
+              </ul>
             </div>
           </div>
           <div class="vertical">
             <img src="/images/fb.png" alt="" class="image-top" />
             <div class="vertical-title">
-                Node.js Developer - Facebook (2021-2022)
+                Algorithm Visualiser <a href="https://github.com/jadhavgaurav/Algorithm-Visualizer" target="_blank">Link</a> (2021-2022)
             </div>
             <div class="vertical-desc">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
@@ -249,7 +263,7 @@
           <div class="vertical">
             <img src="/images/insta.png" alt="" class="image-top" />
             <div class="vertical-title">
-                HTML Developer - Instagram(2020-2021)
+                Twitter Web3 DAPP <a href="https://github.com/jadhavgaurav/twitter-blockchain-web3" target="_blank">Link</a> (2020-2021)
             </div>
             <div class="vertical-desc">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
@@ -261,7 +275,7 @@
           <div class="vertical">
             <img src="/images/twitter.png" alt="" class="image-top" />
             <div class="vertical-title">
-                HTML Developer - Twitter (2020-2021)
+              Android Music Player <a href="https://github.com/jadhavgaurav/Algorithm-Visualizer" target="_blank">Link</a> (2020-2021)
             </div>
             <div class="vertical-desc">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
@@ -273,7 +287,7 @@
           <div class="vertical">
             <img src="/images/yt.png" alt="" class="image-top" />
             <div class="vertical-title">
-                HTML Developer - YouTube (2020-2021)
+                Jarvis - AI Voice Assistant <a href="https://github.com/jadhavgaurav/jarvis" target="_blank">Link</a> (2020-2021)
             </div>
             <div class="vertical-desc">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
@@ -284,6 +298,80 @@
 
         </div>
       </section>
+      <hr />
+
+      <!-- section 2 end -->
+
+      <!-- section 3 start -->
+
+      <section id="certification" class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>My Certificates</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="/images/developer.png" alt="" class="image-top" />
+            <div class="vertical-title">
+                Advanced SQL Certification (IT Vedant) 
+            </div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit expedita id veniam et sequi rerum, explicabo facilis
+              veritatis magni, maxime, voluptate officiis.  
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="/images/developer.png" alt="" class="image-top" />
+            <div class="vertical-title">
+                Advanced Excel Certification (IT Vedant) <a href="/Certificates/Excel Certificate IT Vedant.pdf" target="_blank">Certificate</a>
+            </div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit expedita id veniam et sequi rerum, explicabo facilis
+              veritatis magni, maxime, voluptate officiis.  
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="/images/fb.png" alt="" class="image-top" />
+            <div class="vertical-title">
+                Data Science 360 (FutureSkills Prime) <a href="/Certificates/Data science 360.pdf" target="_blank">Certificate</a>
+            </div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit expedita id veniam et sequi rerum, explicabo facilis
+              veritatis magni, maxime, voluptate officiis.  
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="/images/insta.png" alt="" class="image-top" />
+            <div class="vertical-title">
+                React Development (Internshala-NSDC) <a href="/Certificates/React_Internshala_NSDC.pdf" target="_blank">Certificate</a>
+            </div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit expedita id veniam et sequi rerum, explicabo facilis
+              veritatis magni, maxime, voluptate officiis.  
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="/images/twitter.png" alt="" class="image-top" />
+            <div class="vertical-title">
+                Programming in Java (YHILLS Edutech) <a href="/Certificates/YHills Java Certificate.pdf" target="_blank">Certificate</a>
+            </div>
+            <div class="vertical-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              reprehenderit expedita id veniam et sequi rerum, explicabo facilis
+              veritatis magni, maxime, voluptate officiis.  
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <hr>
+
+      <!-- section 3 end -->
 
       <footer>
         <div class="footer">
